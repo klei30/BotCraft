@@ -38,7 +38,7 @@ export function Hero() {
           <HandPointer className="absolute -left-12" />
           <div className="flex items-center gap-2">
             <PlusCircleIcon className="h-6 w-6"></PlusCircleIcon>
-            <span className="mr-0.5 whitespace-nowrap">{('create_app')}</span>
+            <span className="mr-0.5 whitespace-nowrap">{('Train AI')}</span>
           </div>
         </Button>
         <Button
