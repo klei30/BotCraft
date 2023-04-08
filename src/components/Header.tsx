@@ -69,16 +69,16 @@ const useHeaders = () => {
           target: '_blank',
         },
         { href: '/usage', label: '💸 Usage' },
-        // {
-        //   href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
-        //   label: '🔥 ' + t('give_feedack'),
-        //   target: '_blank',
-        // },
-        // {
-        //   href: 'https://b.jimmylv.cn?ref=opengpt',
-        //   label: t('bibigpt'),
-        //   target: '_blank',
-        // },
+        {
+          href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
+          label: '🔥 ' + t('give_feedack'),
+          target: '_blank',
+        },
+        {
+          href: 'https://b.jimmylv.cn?ref=opengpt',
+          label: t('bibigpt'),
+          target: '_blank',
+        },
         // { href: '#testimonials', label: '用户评价' },
         // { href: '#pricing', label: '价格' },
       ],
