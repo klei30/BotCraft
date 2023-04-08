@@ -70,7 +70,7 @@ const useHeaders = () => {
         },
         { href: '/usage', label: '💸 Usage' },
         {
-          href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
+          href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
           label: '🔥 ' + t('give_feedack'),
           target: '_blank',
         },
