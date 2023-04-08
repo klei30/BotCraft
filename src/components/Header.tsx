@@ -69,7 +69,16 @@ const useHeaders = () => {
           target: '_blank',
         },
         { href: '/usage', label: '💸 Usage' },
-
+        {
+          href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
+          label: '🔥 ' + t('Subscribe'),
+          target: '_blank',
+        },
+        {
+          href: 'https://kleialiaj.vercel.app/contact',
+          label: t('contact'),
+          target: '_blank',
+        },
         // { href: '#testimonials', label: '用户评价' },
         // { href: '#pricing', label: '价格' },
       ],
