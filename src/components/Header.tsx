@@ -81,7 +81,6 @@ const useHeaders = () => {
         // { href: '#testimonials', label: '用户评价' },
         // { href: '#pricing', label: '价格' },
       ],
-      [t]
     )
   return HEADER_LINKS
 }
