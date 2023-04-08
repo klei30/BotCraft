@@ -70,8 +70,8 @@ const useHeaders = () => {
         },
         { href: '/usage', label: '💸 Usage' },
         {
-          href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
-          label: '🔥 ' + t('give_feedack'),
+          href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
+          label: '🔥 ' + t('give_feedback'),
           target: '_blank',
         },
         {
@@ -79,6 +79,7 @@ const useHeaders = () => {
           label: t('bibigpt'),
           target: '_blank',
         },
+
         // { href: '#testimonials', label: '用户评价' },
         // { href: '#pricing', label: '价格' },
       ],
