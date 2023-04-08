@@ -58,6 +58,7 @@ function MobileNavIcon({ open }: { open: boolean }) {
 }
 
 const useHeaders = () => {
+  const { t } = useTranslation('common')
 
   const HEADER_LINKS: Array<{ href: string; label: string; target?: string }> =
     useMemo(
@@ -70,17 +71,18 @@ const useHeaders = () => {
         { href: '/usage', label: '💸 Usage' },
         {
           href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
-          label: '🔥 ' + ('give_feedack'),
+          label: '🔥 ' + t('give_feedback'),
           target: '_blank',
         },
         {
           href: 'https://b.jimmylv.cn?ref=opengpt',
-          label: ('bibigpt'),
+          label: t('bibigpt'),
           target: '_blank',
         },
         // { href: '#testimonials', label: '用户评价' },
         // { href: '#pricing', label: '价格' },
       ],
+      [t]
     )
   return HEADER_LINKS
 }
