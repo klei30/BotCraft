@@ -71,7 +71,7 @@ const useHeaders = () => {
         { href: '/usage', label: '💸 Usage' },
         {
           href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
-          label: '🔥 ' + t('Subscribe'),
+          label: '🔥 ' + t('give_feedack'),
           target: '_blank',
         },
         {
