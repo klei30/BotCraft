@@ -58,7 +58,6 @@ function MobileNavIcon({ open }: { open: boolean }) {
 }
 
 const useHeaders = () => {
-  const { t } = useTranslation('common')
 
   const HEADER_LINKS: Array<{ href: string; label: string; target?: string }> =
     useMemo(
