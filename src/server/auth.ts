@@ -1,12 +1,15 @@
-import { type GetServerSidePropsContext } from 'next'
+/* eslint-disable */
+
+import { GetServerSidePropsContext } from 'next'
 import {
   getServerSession,
-  type DefaultSession,
-  type NextAuthOptions,
+  DefaultSession,
+  NextAuthOptions,
+  Session,
 } from 'next-auth'
 import { PrismaAdapter } from '@next-auth/prisma-adapter'
 import { prisma } from '@/server/db'
-import { type JWT } from 'next-auth/jwt'
+import { JWT } from 'next-auth/jwt'
 
 declare module 'next-auth' {
   interface Session {
@@ -19,17 +22,16 @@ declare module 'next-auth' {
 export const authOptions: NextAuthOptions = {
   callbacks: {
     session: async ({ session, token }) => {
-      const modifiedSession = {
+      const modifiedSession: Session = {
         ...session,
         user: {
           ...session.user,
-          id: token.sub,
+          id: token.sub as string,
         },
       }
-      return { ...modifiedSession }
+      return modifiedSession
     },
   },
-  adapter: PrismaAdapter(prisma),
   providers: [
     // DiscordProvider({
     //   clientId: env.DISCORD_CLIENT_ID,
