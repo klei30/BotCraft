@@ -1,3 +1,10 @@
+import { GenerateApiInput } from '@/utils/types'
+import { useTranslation } from 'next-i18next'
+import { useRouter } from 'next/router'
+import { useState } from 'react'
+import { toast } from 'react-hot-toast'
+import { loadLicenseKey } from './../utils/localData'
+
 export const useGenerateResult = () => {
   const router = useRouter()
   const [generatedResults, setGeneratedResults] = useState<string>('')
@@ -15,8 +22,7 @@ export const useGenerateResult = () => {
         userKey: loadLicenseKey(),
       }),
     })
-
-    if (!response.ok) {
+ if (!response.ok) {
       // Commented out the status 429 and 439 checks
       // if (response.status === 429) {
       //   toast(t('runout_today'), { icon: '🔴' })
