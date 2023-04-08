@@ -70,13 +70,13 @@ const useHeaders = () => {
         },
         { href: '/usage', label: '💸 Usage' },
         {
-          href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
+          href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
           label: '🔥 ' + t('Subscribe'),
           target: '_blank',
         },
         {
-          href: 'https://kleialiaj.vercel.app/contact',
-          label: t('contact'),
+          href: 'https://b.jimmylv.cn?ref=opengpt',
+          label: t('bibigpt'),
           target: '_blank',
         },
         // { href: '#testimonials', label: '用户评价' },
