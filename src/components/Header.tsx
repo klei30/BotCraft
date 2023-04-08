@@ -6,7 +6,7 @@ import { Fragment, useMemo } from 'react'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
-import { useTranslation, TFunction } from 'next-i18next'
+import { useTranslation } from 'next-i18next'
 import { LanguageSelector } from './LanguageSelector'
 
 function MobileNavLink({
@@ -58,7 +58,7 @@ function MobileNavIcon({ open }: { open: boolean }) {
 }
 
 const useHeaders = () => {
-  const { t }: { t: TFunction } = useTranslation('common');
+  const { t } = useTranslation('common')
 
   const HEADER_LINKS: Array<{ href: string; label: string; target?: string }> =
     useMemo(
@@ -70,8 +70,8 @@ const useHeaders = () => {
         },
         { href: '/usage', label: '💸 Usage' },
         {
-          href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
-          label: '🔥 ' + t('give_feedback'),
+          href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
+          label: '🔥 ' + t('give_feedack'),
           target: '_blank',
         },
         {
@@ -79,7 +79,6 @@ const useHeaders = () => {
           label: t('bibigpt'),
           target: '_blank',
         },
-
         // { href: '#testimonials', label: '用户评价' },
         // { href: '#pricing', label: '价格' },
       ],
