@@ -62,7 +62,7 @@ const useHeaders = () => {
     () => [
       {
         href: 'https://github.com/',
-        label: '⭐️ Star on GitHub',
+        label: '⭐️ Star on ProductHunt',
         target: '_blank',
       },
       { href: '/usage', label: '💸 Usage' },
