@@ -1,7 +1,7 @@
 import { DefaultSeoProps } from 'next-seo'
 
 export const SITE_DESC =
-  '立即使用海量的 ChatGPT 应用，或在几秒钟内创建属于自己的应用。'
+  'Sign up the waiting list to access your recent created AI chatbot app, and use it for your B2B,B2C or personal needs。'
 export const DEFAULT_SEO_CONFIG: DefaultSeoProps = {
   title: 'Botcraft Studio - Create Ai Agents in seconds',
   titleTemplate: '%s | OpenGPT',
