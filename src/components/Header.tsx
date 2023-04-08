@@ -68,12 +68,12 @@ const useHeaders = () => {
       { href: '/usage', label: '💸 Usage' },
       {
         href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
-        label: '🔥 give_feedback',
+        label: '🔥Subscribe',
         target: '_blank',
       },
       {
-        href: 'https://b.jimmylv.cn?ref=opengpt',
-        label: 'bibigpt',
+        href: 'https://kleialiaj.vercel.app/contact',
+        label: 'Contact',
         target: '_blank',
       },
     ],
