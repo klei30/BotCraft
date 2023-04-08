@@ -58,34 +58,29 @@ function MobileNavIcon({ open }: { open: boolean }) {
 }
 
 const useHeaders = () => {
-  // const { t } = useTranslation('common')
-
-  const HEADER_LINKS: Array<{ href: string; label: string; target?: string }> =
-    useMemo(
-      () => [
-        {
-          href: 'https://github.com/',
-          label: '⭐️ Star on GitHub',
-          target: '_blank',
-        },
-        { href: '/usage', label: '💸 Usage' },
-        {
-          href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
-          label: '🔥 ' + ('give_feedack'),
-          target: '_blank',
-        },
-        {
-          href: 'https://b.jimmylv.cn?ref=opengpt',
-          label: ('bibigpt'),
-          target: '_blank',
-        },
-        // { href: '#testimonials', label: '用户评价' },
-        // { href: '#pricing', label: '价格' },
-      ],
-
-    )
-  return HEADER_LINKS
-}
+  const HEADER_LINKS: Array<{ href: string; label: string; target?: string }> = useMemo(
+    () => [
+      {
+        href: 'https://github.com/',
+        label: '⭐️ Star on GitHub',
+        target: '_blank',
+      },
+      { href: '/usage', label: '💸 Usage' },
+      {
+        href: 'https://form.waitlistpanda.com/go/BMCWsQ2ugVek0fw2SEge',
+        label: '🔥 give_feedback',
+        target: '_blank',
+      },
+      {
+        href: 'https://b.jimmylv.cn?ref=opengpt',
+        label: 'bibigpt',
+        target: '_blank',
+      },
+    ],
+    []
+  );
+  return HEADER_LINKS;
+};
 
 function MobileNavigation() {
   const HEADER_LINKS = useHeaders()
