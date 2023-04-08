@@ -6,7 +6,7 @@ import { Fragment, useMemo } from 'react'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
-import { useTranslation } from 'next-i18next'
+import { useTranslation, TFunction } from 'next-i18next'
 import { LanguageSelector } from './LanguageSelector'
 
 function MobileNavLink({
@@ -58,7 +58,7 @@ function MobileNavIcon({ open }: { open: boolean }) {
 }
 
 const useHeaders = () => {
-  const { t } = useTranslation('common')
+  const { t }: { t: TFunction } = useTranslation('common');
 
   const HEADER_LINKS: Array<{ href: string; label: string; target?: string }> =
     useMemo(
