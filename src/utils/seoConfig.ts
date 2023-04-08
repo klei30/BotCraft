@@ -5,7 +5,7 @@ export const SITE_DESC =
 export const DEFAULT_SEO_CONFIG: DefaultSeoProps = {
   title: 'Botcraft Studio - Create Ai Application in seconds',
   titleTemplate: '%s | OpenGPT',
-  defaultTitle: 'Botcraft Studio - Create Ai Application in seconds',
+  defaultTitle: 'Botcraft-Studio - Create Ai Application in seconds',
   description: SITE_DESC,
   openGraph: {
     images: [
