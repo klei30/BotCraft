@@ -20,7 +20,7 @@ export function Footer() {
         <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
             <Link
-              href="https://twitter.com/EclipsePrayer"
+              href=""
               className="group"
               aria-label="Twitter"
             >
@@ -32,7 +32,7 @@ export function Footer() {
               </svg>
             </Link>
             <Link
-              href="https://github.com/futantan/OpenGpt"
+              href=""
               className="group"
               aria-label="GitHub"
             >
@@ -45,7 +45,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} TantanFu All rights
+            Copyright &copy; {new Date().getFullYear()} Klei All rights
             reserved.
           </p>
         </div>
