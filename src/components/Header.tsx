@@ -71,12 +71,12 @@ const useHeaders = () => {
         { href: '/usage', label: '💸 Usage' },
         {
           href: 'https://l5oj8ohzdp.feishu.cn/share/base/form/shrcnqfgna9DRRNsEy3rRaqiJCf',
-          label: '🔥 ' + t('give_feedack'),
+          label: '🔥 ' + t('Subscribe'),
           target: '_blank',
         },
         {
           href: 'https://b.jimmylv.cn?ref=opengpt',
-          label: t('bibigpt'),
+          label: t('Contact'),
           target: '_blank',
         },
         // { href: '#testimonials', label: '用户评价' },
